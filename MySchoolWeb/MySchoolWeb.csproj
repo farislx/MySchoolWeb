@@ -39,7 +39,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-<Reference Include="Antlr3.Runtime">
+    <Reference Include="Antlr3.Runtime">
       <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Autofac">
@@ -134,54 +134,54 @@
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Content Include="Global.asax" />
-    <Content Include="public\css\bootstrap.min.css" />
-    <Content Include="public\css\dashboardStyle.css" />
-    <Content Include="public\css\font-awesome.css" />
-    <Content Include="public\css\font-awesome.min.css" />
-    <Content Include="public\css\fullscreen.css" />
-    <Content Include="public\css\ie10-viewport-bug-workaround.css" />
-    <Content Include="public\css\ie\backgroundsize.min.htc" />
-    <Content Include="public\css\ie\html5shiv.js" />
-    <Content Include="public\css\ie\v8.css" />
-    <Content Include="public\css\images\overlay.png" />
-    <Content Include="public\css\login-style.css" />
-    <Content Include="public\css\menuStyle.css" />
-    <Content Include="public\css\navbar.css" />
-    <Content Include="public\css\skel.css" />
-    <Content Include="public\css\style-large.css" />
-    <Content Include="public\css\style-medium.css" />
-    <Content Include="public\css\style-small.css" />
-    <Content Include="public\css\style-xlarge.css" />
-    <Content Include="public\css\style-xsmall.css" />
-    <Content Include="public\css\style.css" />
-    <Content Include="public\css\styles.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\dashboardStyle.css" />
+    <Content Include="css\font-awesome.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\fullscreen.css" />
+    <Content Include="css\ie10-viewport-bug-workaround.css" />
+    <Content Include="css\ie\backgroundsize.min.htc" />
+    <Content Include="css\ie\html5shiv.js" />
+    <Content Include="css\ie\v8.css" />
+    <Content Include="css\images\overlay.png" />
+    <Content Include="css\login-style.css" />
+    <Content Include="css\menuStyle.css" />
+    <Content Include="css\navbar.css" />
+    <Content Include="css\skel.css" />
+    <Content Include="css\style-large.css" />
+    <Content Include="css\style-medium.css" />
+    <Content Include="css\style-small.css" />
+    <Content Include="css\style-xlarge.css" />
+    <Content Include="css\style-xsmall.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\styles.css" />
     <Content Include="public\favicon.png" />
-    <Content Include="public\images\banner.jpg" />
-    <Content Include="public\images\pic01.jpg" />
-    <Content Include="public\images\pic02.jpg" />
-    <Content Include="public\images\pic03.JPG" />
-    <Content Include="public\images\pic04.jpg" />
-    <Content Include="public\images\pic05.jpg" />
-    <Content Include="public\images\pic06.jpg" />
-    <Content Include="public\images\pic07.jpg" />
-    <Content Include="public\images\pic08.jpg" />
-    <Content Include="public\images\pic09.jpg" />
-    <Content Include="public\images\Student-reg.png" />
-    <Content Include="public\js\angular.min.js" />
-    <Content Include="public\js\bootstrap.min.js" />
-    <Content Include="public\js\dashboardjs.js" />
-    <Content Include="public\js\ga.js" />
-    <Content Include="public\js\ie-emulation-modes-warning.js" />
-    <Content Include="public\js\ie10-viewport-bug-workaround.js" />
-    <Content Include="public\js\init.js" />
-    <Content Include="public\js\jquery-1.10.2.min.js" />
-    <Content Include="public\js\jquery.min.js" />
-    <Content Include="public\js\myschool_app.js" />
-    <Content Include="public\js\skel-layers.min.js" />
-    <Content Include="public\js\skel.min.js" />
+    <Content Include="images\banner.jpg" />
+    <Content Include="images\pic01.jpg" />
+    <Content Include="images\pic02.jpg" />
+    <Content Include="images\pic03.JPG" />
+    <Content Include="images\pic04.jpg" />
+    <Content Include="images\pic05.jpg" />
+    <Content Include="images\pic06.jpg" />
+    <Content Include="images\pic07.jpg" />
+    <Content Include="images\pic08.jpg" />
+    <Content Include="images\pic09.jpg" />
+    <Content Include="images\Student-reg.png" />
+    <Content Include="js\angular.min.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\dashboardjs.js" />
+    <Content Include="js\ga.js" />
+    <Content Include="js\ie-emulation-modes-warning.js" />
+    <Content Include="js\ie10-viewport-bug-workaround.js" />
+    <Content Include="js\init.js" />
+    <Content Include="js\jquery-1.10.2.min.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\myschool_app.js" />
+    <Content Include="js\skel-layers.min.js" />
+    <Content Include="js\skel.min.js" />
     <Content Include="Views\Components\registration.html" />
     <Content Include="Views\dashboard.html" />
-    <Content Include="Views\home.html" />
+    <Content Include="index.html" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -202,11 +202,11 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="public\fonts\fontawesome-webfont.eot" />
-    <Content Include="public\fonts\fontawesome-webfont.svg" />
-    <Content Include="public\fonts\fontawesome-webfont.ttf" />
-    <Content Include="public\fonts\fontawesome-webfont.woff" />
-    <Content Include="public\fonts\FontAwesome.otf" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\FontAwesome.otf" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
